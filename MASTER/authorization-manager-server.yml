@@ -1,0 +1,12 @@
+server:
+    port: 8904
+ 
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/
+
+token:
+    issuer: Nuno Miguel
+token:
+    subject: Subject TESTE
