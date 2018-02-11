@@ -8,5 +8,4 @@ eureka:
 
 token:
     issuer: Nuno Miguel
-token:
     subject: Subject TESTE
