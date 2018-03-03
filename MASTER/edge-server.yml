@@ -11,6 +11,6 @@ zuul:
         request: true
     routes:
         authorization-manager-server:
-              path: /authorization-manager-server/user/**
+              path: /authorization-manager-server/**
               serviceId: authorization-manager-server
               stripPrefix: true
