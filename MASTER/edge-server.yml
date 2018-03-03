@@ -8,9 +8,9 @@ eureka:
 
 zuul:
     debug:
-      request: true
-  routes:
-      authorization-manager-server:
-        path: /user/**
-        serviceId: user-authorization-service
-        stripPrefix: true
+        request: true
+    routes:
+        authorization-manager-server:
+              path: /user/**
+              serviceId: user-authorization-service
+              stripPrefix: true
