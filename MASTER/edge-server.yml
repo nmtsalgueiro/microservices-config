@@ -14,4 +14,4 @@ zuul:
         authorization-manager-server:
               path: /user/**
               serviceId: authorization-manager-server
-              stripPrefix: true
+              stripPrefix: false
