@@ -7,10 +7,11 @@ eureka:
              defaultZone: http://localhost:8761/eureka/
 
 zuul:
+    prefix: /application
     debug:
         request: true
     routes:
         authorization-manager-server:
-              path: /authorization-manager-server/**
+              path: /user/**
               serviceId: authorization-manager-server
               stripPrefix: true
