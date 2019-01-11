@@ -15,3 +15,11 @@ zuul:
               path: /user/**
               serviceId: authorization-manager-server
               stripPrefix: false
+        storage:
+              path: /product/**
+              serviceId: storage
+              stripPrefix: true
+        document-service:
+              path: /document-service/**
+              serviceId: document-service
+              stripPrefix: true
