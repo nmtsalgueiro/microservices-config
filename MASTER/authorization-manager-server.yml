@@ -6,6 +6,9 @@ eureka:
         serviceUrl:
              defaultZone: http://localhost:8761/eureka/
 
+signing:
+    key: "345345fsdfsf5345"
+
 #token:
 #    issuer: Nuno Miguel
 #    subject: Subject TESTE
