@@ -17,7 +17,7 @@ zuul:
               stripPrefix: false
         storage:
               path: /product/**
-              serviceId: storage
+              serviceId: storage-service
               stripPrefix: true
         document-service:
               path: /document-service/**
